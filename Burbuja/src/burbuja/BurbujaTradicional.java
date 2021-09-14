@@ -65,6 +65,15 @@ public class BurbujaTradicional
         return arreglo; //retornaba el array porque quería ver su efectividad 
     }
     
+    static void mostrarArreglo(int[] arreglo)
+    {
+        for (int i = 0; i < arreglo.length; ++i)
+        {
+            System.out.print(arreglo[i]+"\n");
+        }
+        System.out.println("\n");
+    }
+    
     public static void main(String[] args) 
     {
         //Arreglos
@@ -79,12 +88,8 @@ public class BurbujaTradicional
         
         //mejor de los casos
             array = ordenamientoBurbujaTradicional(arreglom1);
-                //impresión arreglo
-                for(int i = 0; i < array.length;i++)
-                {
-                    System.out.println(array[i]);
-                }
-                System.out.println("\n");
+        //impresión arreglo
+            mostrarArreglo(array);
 
     }
 }
