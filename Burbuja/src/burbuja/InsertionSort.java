@@ -58,7 +58,7 @@ public class InsertionSort
         return arreglo;
     }
  
-    static void printArray(int[] arreglo)
+    static void mostrarArreglo(int[] arreglo)
     {
         for (int i = 0; i < arreglo.length; ++i)
         {
@@ -81,7 +81,7 @@ public class InsertionSort
  
         //InsertionSort ob = new InsertionSort();
         array = ordenamientoSort(arreglom1);
-        printArray(array);
+        mostrarArreglo(array);
         
     }
 }
