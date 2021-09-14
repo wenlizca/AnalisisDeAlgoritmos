@@ -5,8 +5,6 @@
  */
 package burbuja;
 
-import static burbuja.BurbujaTradicional.ordenamientoBurbujaTradicional;
-
 /**
  *
  * @author wendo
