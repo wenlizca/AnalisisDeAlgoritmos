@@ -96,6 +96,15 @@ public class BurbujaOptimizado
         return arreglo;
     }
     
+    static void mostrarArreglo(int[] arreglo)
+    {
+        for (int i = 0; i < arreglo.length; ++i)
+        {
+            System.out.print(arreglo[i]+"\n");
+        }
+        System.out.println("\n");
+    }
+    
     public static void main(String[] args) 
     {
         //Arreglos
@@ -110,12 +119,7 @@ public class BurbujaOptimizado
         
         //mejor de los casos
             array = ordenamientoBurbujaOptimizado(arreglom1);
-                //impresión arreglo
-                for(int i = 0; i < array.length;i++)
-                {
-                    System.out.println(array[i]);
-                }
-                System.out.println("\n");
-
+        //impresión arreglo
+            mostrarArreglo(array);
     }
 }
