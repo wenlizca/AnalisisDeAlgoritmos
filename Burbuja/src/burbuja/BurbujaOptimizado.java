@@ -41,25 +41,6 @@ public class BurbujaOptimizado
         
         // calculamos el tiempo Inicial del sistema en milis
         tiempoInicio=System.currentTimeMillis();
-        
-//        while(cambiar && cambiar == true)
-//        {
-//            cambiar = false;
-//            for(int j = 0 ; j < arreglo.length - 1 ; j++)
-//            {
-//                if(arreglo[j] >  arreglo[j+1])
-//                {
-//                    //Intercambiando los valores
-//                    aux = arreglo[j];
-//                    arreglo[j] = arreglo[j+1];
-//                    arreglo[j+1] = aux;
-//                    cambiar = true;
-//                    
-//                    NumeroInteraciones++;
-//                }
-//                NumeroVerificaciones++;
-//            }
-//        }
 
         for(int i = 0; i < arreglo.length - 1; i++) {
                 cambiar = false;
